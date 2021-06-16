@@ -1,0 +1,44 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+-Initial dev release
+
+## [0.1.8] - 2019-06-04
+### Added
+-event emitter for token change to update token after expiration automatically
+
+### Changed
+
+### Removed
+
+## [0.1.7] - 2019-06-03
+### Added
+-Internet connection test on splash screen. App will not run without internet connection
+
+### Changed
+
+### Removed
+
+## [0.1.6] - 2019-06-02
+### Added
+-Splash screen that functions as updater(Loader.html, Updater.js)
+-Changelog
+-Base code for XML file comparison...this will be added to later
+-Asar code protection
+
+### Changed
+-Modified autoUpdater logic to work from new splash screen
+-Add checks for isDev to bypass updater logic while in development environment
+-Code cleanup
+-Moved files to appropriate folders(js, xml, css, etc...)
+
+### Removed
+
+[Unreleased]: 
+[0.1.6]: https://bitbucket.org/poscon/poscon_launcher_lite/commits/1bff2b7b015258bec2f88a40e1d4d4f2a36318cb
+[0.1.7]: https://bitbucket.org/poscon/poscon_launcher_lite/commits/47762f0afcbf674e5fbb27de46d6b0608750f7ac
+[0.1.8]: https://bitbucket.org/poscon/poscon_launcher_lite/commits/76e91b611dc348ebeac52a41e3ad602ebffa324e
